@@ -1,3 +1,4 @@
+
 ## Routing
 
 
@@ -28,3 +29,35 @@ output:
 ![statuscode](./img/statusCodeScreenshot_20241012_195635.png)
 
 ## please note that you start reading code from 01`<somename>`.js, 02`<somename>`.js, ... last file is the index.js
+
+![npm init](./img/npmInitScreenshot_20241016_163135.png)
+
+```
+npm install slugify
+```
+
+```
+npm install nodemon --save-dev
+```
+
+update this in `package.json`
+
+``` js
+"scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+### start server
+
+```
+npm run start
+```
+or 
+
+```
+npm start
+```
+
+
