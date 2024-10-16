@@ -15,20 +15,6 @@ const jsonObj = JSON.parse(prodData)
 // console.log(typeof(prodData)) // String
 // console.log(typeof(jsonData)) // object
 
-const slugs = jsonObj.map(el => slugify(el.productName, {lower: true}))
-console.log(slugs)
-// output:
-/*
-[
-    'fresh-avocados',
-    'goat-and-sheep-cheese',
-    'apollo-broccoli',
-    'baby-carrots',
-    'sweet-corncobs'
-]
-*/  
-// slugify()
-
 
 const server  = http.createServer((req, res) => {
     // console.log(req.url)
