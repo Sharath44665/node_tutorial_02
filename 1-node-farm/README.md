@@ -26,3 +26,5 @@ const server  = http.createServer((req, res) => {
 output:
 
 ![statuscode](./img/statusCodeScreenshot_20241012_195635.png)
+
+## please note that you start reading code from 01`<somename>`.js, 02`<somename>`.js, ... last file is the index.js
